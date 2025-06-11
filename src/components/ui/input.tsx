@@ -119,7 +119,7 @@ export default function InputNumber({ value, onChange, className, max, min, disp
           –
         </button>
       </Tooltip>
-      <span className="px-[11px] group-hover:bg-red-100">
+      <span className="px-[10px] group-hover:bg-red-100">
         <input
           className={clsx(`text-center bg-transparent outline-none`, className)}
           value={inputValue}
